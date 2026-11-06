@@ -24,7 +24,7 @@ BAUDIOS = 9600
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # CARPETA DE IMÁGENES
-CARPETA_IMAGENES = os.path.join(BASE_DIR, "imag")
+CARPETA_IMAGENES = BASE_DIR
 
 # RUTAS RELATIVAS DE LAS IMÁGENES
 RUTAS = {
